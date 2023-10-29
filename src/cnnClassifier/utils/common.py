@@ -68,7 +68,7 @@ def save_json(path: Path, data: dict):
 
 
 
-    @ensure_annotations
+@ensure_annotations
 def load_json(path: Path) -> ConfigBox:
     """load json files data
 
